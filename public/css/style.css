@@ -124,19 +124,60 @@ background-size: cover;
 
 .apps1{
 	width: 100px;
-	height: 600px;
+	height: 430px;
 	padding: 5px;
 	background-color: rgba(37, 88, 88, 0.733);
 	box-shadow: 0px 0px 10px 2px black;
-	margin-top: -20%;
-	margin-left: 80%;
+	margin-top: -17%;
+	margin-left: 75%;
 
 }
 
-.office365{
+.apps2{
+	width: 100px;
+	height: 430px;
+	padding: 5px;
+	background-color: rgba(37, 88, 88, 0.733);
+	box-shadow: 0px 0px 10px 2px black;
+	margin-top: -22.4%;
+	margin-left: 81%;
+
+}
+
+.Office365{
 	border-radius: 5px;
 	width: 75px;
 	height: 75px;
 	margin: 7px;
 	background-color: white;
+	padding: 5px;
+}
+/* exel was acting odd */
+.Excel{
+	border-radius: 5px;
+	width: 75px;
+	height: 75px;
+	margin: 7px;
+	background-color: white;
+	padding-right: 5px;
+}
+
+.OneDrive{
+	border-radius: 5px;
+	width: 75px;
+	height: 75px;
+	margin: 7px;
+	background-color: white;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+
+.PowerApps{
+	border-radius: 5px;
+	width: 75px;
+	height: 75px;
+	margin: 7px;
+	background-color: white;
+	padding: 5px;
+	padding-top: 10px;
 }
