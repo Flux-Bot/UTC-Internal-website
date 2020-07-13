@@ -1,0 +1,41 @@
+body {
+    background-image: url("/butc background0.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url("/fonts/Montserrat-ExtraLight.otf");
+	font-weight: normal;
+}
+@font-face {
+	font-family: Montserrat;
+	src: url("/fonts/Montserrat-Regular.otf");
+	font-weight: bold;
+}
+
+* {
+	box-sizing: border-box;
+	position: relative;
+}
+
+body {
+	font-family: Montserrat;
+}
+
+h1,h2,h3,h4,h5 {
+	font-weight: bold;
+}
+
+hr {
+	border-color:#c1c1c1;
+
+	border-width: 1px;
+
+	border-style: dashed;
+}
+
+.main-h1 {
+	padding-left: 56px;
+}
