@@ -183,3 +183,12 @@ background-size: cover;
 	padding: 5px;
 	padding-top: 10px;
 }
+
+.Picture{
+	width: 400;
+	height: 200;
+	background-color: rgba(37, 88, 88, 0.733);
+	box-shadow: 0px 0px 10px 2px black;
+	margin-left: ;
+	margin-top: ;
+}
