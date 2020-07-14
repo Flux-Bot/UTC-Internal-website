@@ -5,6 +5,7 @@
 }*/
 body{
 	background-color: rgb(52, 138, 219);
+  font-family: Montserrat;
 }
 
 @font-face {
@@ -21,10 +22,6 @@ body{
 * {
 	box-sizing: border-box;
 	position: relative;
-}
-
-body {
-	font-family: Montserrat;
 }
 
 h1,h2,h3,h4,h5 {
