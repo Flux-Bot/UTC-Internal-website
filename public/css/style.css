@@ -41,23 +41,23 @@ hr {
 }
 
 a:link {
-	color: rgb(209, 8, 192);
+	color: rgb(255, 255, 255);
 	background-color: transparent;
 	text-decoration: none;
 }
 a:visited {
-	color: rgb(209, 8, 192);
+	color: rgb(255, 255, 255);
 	background-color: transparent;
 	text-decoration: none;
 }
 
 a:hover {
-	color: rgb(255, 0, 234);
+	color: rgb(255, 255, 255);
 	background-color: transparent;
 	text-decoration: underline;
 }
 a:active {
-	color: rgb(255, 0, 0);
+	color: rgb(255, 255, 255);
 	background-color: transparent;
 	text-decoration: underline;
 }
