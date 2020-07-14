@@ -105,15 +105,7 @@ box-shadow: 0px 0px 10px 2px black;
 background-color: rgba(37, 88, 88, 0.733) ;
 background-size: cover;
 }
-.nav{
-width: auto;
-height: 50px;
-padding-top: 10px;
-padding-left: 43%;
-margin: 0px;
-margin-top: 5px;
-background-color: rgba(0, 47, 255, 0) ;
-background-size: cover;
+
 }
 .scaled {
 	transform: scale(0.7); /* Equal to scaleX(0.7) scaleY(0.7) */
@@ -186,6 +178,6 @@ background-size: cover;
 	height: 200;
 	background-color: rgba(37, 88, 88, 0.733);
 	box-shadow: 0px 0px 10px 2px black;
-	margin-left: ;
-	margin-top: ;
+	margin-left: 40%;
+	margin-top: 1%;
 }
