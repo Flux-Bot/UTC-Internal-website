@@ -3,6 +3,11 @@
     background-repeat: no-repeat;
     background-size: 1920px 1080px;
 }*/
+
+.white{
+	color: #fff;
+}
+
 body{
 	background-color: rgb(52, 138, 219);
   font-family: Main;
