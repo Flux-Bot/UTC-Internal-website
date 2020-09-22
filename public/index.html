@@ -13,38 +13,40 @@
 	<link rel="stylesheet" href="/css/style.css">
 </head>
 
-	<!--Top Bar-->
-	<div class="fixed-top">
-		<div class="header">
-			<div id="content-desktop">
-				<img src="/media/bucks utc text.png" width="350px" height="auto"  style= margin-top: 0px; margin-right: auto; padding-bottom: 25px;  />
-				<body onload="startTime()"></body>
-				<div id="Time" class="white" style= float:right;></div>
-			</div>
-	</div>
+	<div class="margin">
+		<!--Top Bar-->
+		<div class="fixed-top">
+			<div class="header">
+				<div id="content-desktop">
+					<img src="/media/bucks utc text.png" width="350px" height="auto"  style= margin-top: 0px; margin-right: auto; padding-bottom: 25px;  />
+<!--					<body onload="startTime()"></body>                   -->
+					<div id="MyClockDisplay" class="white" style= float:right;></div>
+				</div>
+		</div>
 
-	<!--center box-->
-	<div class="box1">
-		<!--butc name photo-->
-		<img src="/media/GoogleLogo.png" style="display: block;
-        margin-top: 1px; margin-right: auto; margin-left: auto;" />
-		<!--google search-->
-		<form action="http://www.google.com/search" method="get" width="100cm" height="145.50cm" style="display: block;
-        margin-top: -5px; margin-right: 438%; margin-left: 30%;">
-			<input type="text" name="q" placeholder="Google" />
+		<!--center box-->
+		<div class="google">
+			<!--google search-->
+			<img src="/media/GoogleLogo.png" style="display: block;
+			margin-top: 1px; margin-right: auto; margin-left: auto;" />
+			<form action="http://www.google.com/search" method="get" width="100cm" height="145.50cm" style="display: block;
+			margin-top: -5px; margin-right: 438%; margin-left: 30%;">
+				<input type="text" name="q" placeholder="Google" />
 
-			<input type="submit" value="Search" style="display: block;
-            margin-top: 5px; margin-right:50%; margin-left: 50%;" />
-		</form>
-	</div>
+				<input type="submit" value="Search" style="display: block;
+				margin-top: 5px; margin-right:50%; margin-left: 50%;" />
+			</form>
+		</div>
 
-	<div>
-		<div class="Apps" id="content-desktop">
-			<div class="squares">
-				<a href="https://outlook.office.com/mail"><img src="/media/Outlook.png" width="65px" height="65px"></a>
+		<!--app bar-->
+		<div>
+			<div class="Apps" id="content-desktop">
+				<div class="squares">
+					<a href="https://outlook.office.com/mail"><img src="/media/Outlook.png" width="65px" height="65px"></a>
+				</div>
 			</div>
 		</div>
-	</div>
+	</div>	
 	<!--<div class="AppsJoin">-->
 		<!--apps on right of left--> <!--
 		<div class="apps1">
@@ -92,14 +94,14 @@
 
 	</div>
 -->
-<!--picture carisal -->
+<!--picture carisal 
 <div class="picture">
 		<img id="carousel" src="media/carousel/3.jpg" width="400" height="auto" />
 		<button type="button" id="previousButton">Previous</button>
 		<button type="button" id="nextButton">Next</button>
 		<button type="button" id="nextButton"><img src="media/right.png"></button>
 	</div>
-
+-->
 	<script>
 		$(document).ready(function () {
 			$.getJSON("/api/carousel.json", function (images) {
