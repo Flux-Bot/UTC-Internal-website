@@ -17,7 +17,6 @@ body{
 .margin{
 	height: auto;
 	width: auto;
-	padding: 50px;
 }
 
 @font-face {
@@ -79,15 +78,13 @@ display: inline;
 }
 
 .google{
-width: 500px;
+width: auto;
 height: auto;
 padding: 20px;
 margin: auto;
 margin-top: 125px;
-box-shadow: 0px 0px 10px 2px black;
+background-color: gray;
 
-background-color: rgba(37, 88, 88, 0.733) ;
-background-size: cover;
 }
 
 .scaled {
