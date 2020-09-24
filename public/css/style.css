@@ -82,8 +82,8 @@ width: auto;
 height: auto;
 padding: 20px;
 margin: auto;
-margin-top: 125px;
-background-color: gray;
+margin-top: 90px;
+
 
 }
 
@@ -177,6 +177,8 @@ background-color: gray;
 	height:300px;
 	width: fit-content 100%;
 	background-color: gray;
+	background-color: rgba(53,109,220, 30);
+	box-shadow: 0px 0px 10px 3px rgba(53,109,220);
 }
 
 
