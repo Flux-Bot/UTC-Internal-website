@@ -78,11 +78,12 @@ display: inline;
 }
 
 .google{
-width: auto;
+width: 500px;
 height: auto;
 padding: 20px;
 margin: auto;
 margin-top: 90px;
+
 
 
 }
@@ -177,8 +178,8 @@ margin-top: 90px;
 	height:300px;
 	width: fit-content 100%;
 	background-color: gray;
-	background-color: rgba(53,109,220, 30);
-	box-shadow: 0px 0px 10px 3px rgba(53,109,220);
+	background-color: rgba(53,109,220);
+	box-shadow: 0px 0px 50px 5px rgba(0,0,0);
 }
 
 
