@@ -174,12 +174,18 @@ margin-top: 90px;
 }
 
 .Apps{
-	margin-top:300px;
-	height:300px;
+	margin-top:100px;
 	width: fit-content 100%;
 	background-color: gray;
 	background-color: rgba(53,109,220);
 	box-shadow: 0px 0px 50px 5px rgba(0,0,0);
+}
+
+.squares{
+	display:  flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 50px;
 }
 
 
