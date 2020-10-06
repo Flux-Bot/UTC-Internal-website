@@ -93,12 +93,18 @@ margin-top: 90px;
 }
 
 .picture{
-	width: 400;
 	height: 200;
-	margin-left: 50%;
-	margin-right: 75%;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
+
+.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 750px;
+	max-width: 80%;
+  }
 
 .header{
 	width: 100%;

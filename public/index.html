@@ -62,13 +62,14 @@
 
 			<!--picture carisal-->
 			<div class="picture">
-				<img id="carousel" src="\Images\1.jpg" width="auto" height="750px" />
+				<img id="carousel" class="center" src="\Images\1.jpg">
 			</div>
 			<div>
 				<a id="previousButton"><img src="media/left.png" style= float:left;></a>
 				<a id="nextButton"><img src="media/right.png" style= float:right; margin-top:50px></a>
 			</div>
 		</div>	
+
 	<script>
 		$(document).ready(function () {
 			$.getJSON("Images/settings-carousel.json", function (images) {
