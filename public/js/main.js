@@ -1,10 +1,3 @@
-var carouselImages = [
-	"media/carousel/0.jpg",
-	"media/carousel/1.jpg",
-	"media/carousel/2.jpg",
-	"media/carousel/3.jpg"
-], x = -1;
-
 function displayNextImage() {
 	x = (x === carouselImages.length - 1) ? 0 : x + 1;
 	document.getElementById("carousel").src = carouselImages[x];

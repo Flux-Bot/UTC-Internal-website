@@ -62,7 +62,7 @@
 
 			<!--picture carisal-->
 			<div class="picture">
-				<img id="carousel" src="Images/1.jpg" width="auto" height="750px" />
+				<img id="carousel" src="\Images\1.jpg" width="auto" height="750px" />
 			</div>
 			<div>
 				<a id="previousButton"><img src="media/left.png" style= float:left;></a>
@@ -71,7 +71,7 @@
 		</div>	
 	<script>
 		$(document).ready(function () {
-			$.getJSON("Images/settings-carousel.json", function (images) {
+			$.getJSON("/Images/settings-carousel.json", function (images) {
 				// Images will be the array of images to put in the carousel.
 				var current = 0;
 
