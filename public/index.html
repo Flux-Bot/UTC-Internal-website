@@ -44,53 +44,34 @@
 		</div>
 
 		<!--app bar-->
+		<div>
 			<div class="Apps" id="content-desktop">
 				<div class="squares">
-					<a href="https://outlook.office.com/mail"><img src="/media/Outlook.png" width="100px" height="100px"></a>
-					<a href="https://www.office.com/launch/teams"><img src="/media/Teams.png" width="100px" height="100px"></a>
-					<a href="https://www.office.com/launch/onenote"><img src="/media/OneNote.png" width="100px" height="100px"></a>
-					<a href="https://www.office.com/launch/word"><img src="/media/Word.png" width="100px" height="100px"></a>
-					<a href="https://www.office.com/launch/powerpoint"><img src="/media/Powerpoint.png" width="100px" height="100px"></a>
-					<a href="https://www.office.com/launch/excel"><img src="/media/Excel.png" width="100px" height="100px"></a>
-					<a href="https://www.office.com/launch/onedrive"><img src="/media/OneDrive.png" width="100px" height="100px"></a>
-					<a href="https://www.bbc.co.uk/bitesize"><img src="/media/BBCBitesize.png" width="100px" height="100px"></a>
+					<a href="https://outlook.office.com/mail"><img src="/media/Outlook.png" width="75px" height="75px"></a>
+					<a href="https://www.office.com/launch/teams"><img src="/media/Teams.png" width="75px" height="75px"></a>
+					<a href="https://www.office.com/launch/onenote"><img src="/media/OneNote.png" width="75px" height="75px"></a>
+					<a href="https://www.office.com/launch/word"><img src="/media/Word.png" width="75px" height="75px"></a>
+					<a href="https://www.office.com/launch/powerpoint"><img src="/media/Powerpoint.png" width="75px" height="75px"></a>
+					<a href="https://www.office.com/launch/excel"><img src="/media/Excel.png" width="75px" height="75px"></a>
+					<a href="https://www.office.com/launch/onedrive"><img src="/media/OneDrive.png" width="75px" height="75px"></a>
+					<a href="https://www.bbc.co.uk/bitesize"><img src="/media/BBCBitesize.png" width="75px" height="75px"></a>
+					<a href="https://github.com/"><img src="/media/github.png" width="75px" height="75px"></a>
 				</div>
 			</div>
+		
 
-		<!--apps on left of left--> <!--
-		<div class="apps2">
-			<div class="OneDrive">
-				<a href="https://onedrive.live.com/about/en-uk/signin/"><img src="/media/OneDrive.png" width="65px"
-						height="50px"></a>
+			<!--picture carisal-->
+			<div class="picture">
+				<img id="carousel" src="media/carousel/3.jpg" width="auto" height="750px" />
 			</div>
-			<div class="Office365">
-				<a href="https://teams.microsoft.com/"><img src="/media/Teams.png" width="65px" height="65px"></a>
+			<div>
+				<a id="previousButton"><img src="media/left.png" style= float:left;></a>
+				<a id="nextButton"><img src="media/right.png" style= float:right; margin-top:50px></a>
 			</div>
-			<div class="Office365">
-				<a href="https://www.office.com/launch/powerpoint/"><img src="/media/Powerpoint.png" width="65px"
-						height="65px"></a>
-			</div>
-			<div class="PowerApps">
-				<a href="https://make.powerapps.com/"><img src="/media/PowerApps.png" width="65px" height="55px"></a>
-			</div>
-			<div class="Office365">
-				<a href="https://github.com/"><img src="/media/github.png" width="65px" height="65px"></a>
-			</div>
-		</div>
-
-	</div>
--->
-<!--picture carisal-->
-<div class="picture">
-		<img id="carousel" src="media/carousel/3.jpg" width="1000" height="auto" />
-		<a id="previousButton"><img src="media/left.png"></a>
-		<a id="nextButton"><img src="media/right.png"></a>
-
-	</div>
-
+		</div>	
 	<script>
 		$(document).ready(function () {
-			$.getJSON("/api/carousel.json", function (images) {
+			$.getJSON("Images/settings-carousel.json", function (images) {
 				// Images will be the array of images to put in the carousel.
 				var current = 0;
 
