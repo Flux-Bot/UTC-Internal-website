@@ -188,6 +188,12 @@ margin-top: 90px;
 	padding: 50px;
 }
 
+ .GoogleFlex{
+	 display:  flex;
+	 justify-content: space-between;
+	 padding: 5px;
+ }
+
 
 #content-desktop {display: block;}
 #content-mobile {display: none;}
