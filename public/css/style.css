@@ -122,6 +122,15 @@ margin-top: 90px;
 	background-color: #101010;
 	box-shadow: 0px 0px 10px 3px black;
 }
+.footer{
+	width: 100%;
+	height: 200px;
+	border-left: 10px;
+	border-right: 10px;
+	background-color: #101010;
+	box-shadow: 0px 0px 10px 3px black;
+	margin-top: 100%;
+}
 
 .Apps{
 	margin-top:400px;
