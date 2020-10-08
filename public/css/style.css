@@ -106,11 +106,11 @@ margin-top: 90px;
 	display: block;
 	transition: 0.3s;
   }
-  
+
   .sidenav a:hover {
 	color: #f1f1f1;
   }
-  
+
   .sidenav .closebtn {
 	position: absolute;
 	top: 0;
@@ -118,7 +118,7 @@ margin-top: 90px;
 	font-size: 36px;
 	margin-left: 50px;
   }
-  
+
   @media screen and (max-height: 450px) {
 	.sidenav {padding-top: 15px;}
 	.sidenav a {font-size: 18px;}
@@ -190,7 +190,7 @@ margin-top: 90px;
  }
 
  .footerCr{
-	 padding-top: 10px;
+	 padding: 5px;
 	 margin-top: 0;
 	 margin-bottom: 1rem;
 	 color: rgb(255, 255, 255);
