@@ -126,7 +126,6 @@ margin-top: 90px;
 .picture{
 	height: 200;
 	margin-top: 50px;
-	margin-bottom: 50px;
 }
 
 .center {
@@ -160,7 +159,7 @@ margin-top: 90px;
 	border-right: 10px;
 	background-color: #101010;
 	box-shadow: 0px 0px 10px 3px black;
-	margin-top: 100%;
+	margin-top: 600px;
 }
 
 .Apps{
