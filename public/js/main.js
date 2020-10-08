@@ -41,3 +41,12 @@ function ShowTime(){
 	}
 
 	ShowTime();
+
+//side nav side
+function openNav() {
+	document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+  }
