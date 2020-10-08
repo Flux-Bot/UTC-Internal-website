@@ -14,11 +14,6 @@ body{
   font-family: Main;
 }
 
-.margin{
-	height: auto;
-	width: auto;
-}
-
 @font-face {
 	font-family: Main;
 	src: url("/Fonts/Rubik-Regular.ttf");
