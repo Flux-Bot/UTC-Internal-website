@@ -10,7 +10,7 @@
 }
 
 body{
-	background-color: rgb(52, 138, 219);
+	background-color: rgb(116, 171, 250);
   font-family: Main;
 }
 
@@ -133,7 +133,7 @@ margin-top: 90px;
 }
 
 .Apps{
-	margin-top:400px;
+	margin-top:100px;
 	width: fit-content 100%;
 	background-color: gray;
 	background-color: rgba(53,109,220);
@@ -151,6 +151,14 @@ margin-top: 90px;
 	 display:  flex;
 	 justify-content: space-between;
 	 padding: 5px;
+ }
+
+ .footerCr{
+	 padding-top: 10px;
+	 margin-top: 0;
+	 margin-bottom: 1rem;
+	 color: rgb(255, 255, 255);
+
  }
 
 
