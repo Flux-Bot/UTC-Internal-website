@@ -12,6 +12,7 @@ function startTimer() {
 	setInterval(displayNextImage, 5500);
 }
 
+
 //Clock in 12 hours and refreshing ever second
 function ShowTime(){
 	var date = new Date();
@@ -50,3 +51,19 @@ function openNav() {
 function closeNav() {
 	document.getElementById("mySidenav").style.width = "0";
   }
+
+//side nar dropdown
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}

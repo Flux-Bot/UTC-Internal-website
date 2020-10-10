@@ -102,8 +102,14 @@ margin-top: 90px;
 	transition: 0.3s;
   }
 
-  .sidenav a:hover {
+  .sidenav a:hover .dropdown-btn:hover{
 	color: #f1f1f1;
+  }
+
+  .dropdown-container {
+	display: none;
+	background-color: #262626;
+	padding-left: 8px;
   }
 
   .sidenav .closebtn {
@@ -112,6 +118,22 @@ margin-top: 90px;
 	right: 25px;
 	font-size: 36px;
 	margin-left: 50px;
+  }
+
+.active {
+	background-color: rgba(53,109,220);
+	color: white;
+  }
+  
+  .dropdown-container {
+	display: none;
+	background-color: #262626;
+	padding-left: 8px;
+  }
+  
+  .fa-caret-down {
+	float: right;
+	padding-right: 8px;
   }
 
   @media screen and (max-height: 450px) {
@@ -126,6 +148,7 @@ margin-top: 90px;
 .picture{
 	height: 200;
 	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 .center {
@@ -159,7 +182,7 @@ margin-top: 90px;
 	border-right: 10px;
 	background-color: #101010;
 	box-shadow: 0px 0px 10px 3px black;
-	margin-top: 600px;
+	margin-top: 100%;
 }
 
 .Apps{
