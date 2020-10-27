@@ -285,7 +285,7 @@ display: inline;
 .content-desktop {display: block;}
 .content-mobile {display: none;}
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 975px) {
 
 .content-desktop {display: none;}
 .content-mobile {display: block;}
@@ -305,7 +305,7 @@ display: inline;
 }
 
 .desktopmenubutton {
-	background-color: #ff00ff;
+	background-color: #444244;
 	color: white;
 	padding: 16px;
 	font-size: 16px;
@@ -334,4 +334,4 @@ display: inline;
 
 .desktopmenudrop a:hover {background-color: rgb(0, 0, 0);}
 .desktopmenu:hover .desktopmenudrop {display: block;}
-.desktopmenu:hover .desktopmenubutton {background-color: #7c2d83;}
+.desktopmenu:hover .desktopmenubutton {background-color: #636163;}
