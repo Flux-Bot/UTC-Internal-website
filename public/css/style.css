@@ -305,10 +305,10 @@ display: inline;
 }
 
 .desktopmenubutton {
-	background-color: #444244;
+	background-color: #101010;
 	color: white;
 	padding: 16px;
-	font-size: 16px;
+	font-size: 22px;
 	border: none;
 }
 
@@ -332,6 +332,6 @@ display: inline;
 	display: block;
 }
 
-.desktopmenudrop a:hover {background-color: rgb(0, 0, 0);}
+.desktopmenudrop a:hover {background-color: #101010;}
 .desktopmenu:hover .desktopmenudrop {display: block;}
-.desktopmenu:hover .desktopmenubutton {background-color: #636163;}
+.desktopmenu:hover .desktopmenubutton {background-color: #434143;}
