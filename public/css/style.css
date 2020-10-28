@@ -285,7 +285,7 @@ display: inline;
 .content-desktop {display: block;}
 .content-mobile {display: none;}
 
-@media screen and (max-width: 975px) {
+@media screen and (max-width: 1121px) {
 
 .content-desktop {display: none;}
 .content-mobile {display: block;}
