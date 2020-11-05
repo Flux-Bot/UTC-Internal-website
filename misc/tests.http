@@ -1,0 +1,13 @@
+###
+# Test area for trying out API calls to different resources.
+###
+
+# Contentful
+
+@access_token = oHy3cU2_3o4kuHEZX8HE4b3pvUFwxU8-YXn1qPKGYpA
+@space = 28pe32ti9xv4
+
+@content_type = news
+
+GET https://cdn.contentful.com/spaces/{{space}}/environments/master/entries?access_token={{access_token}}&content_type={{content_type}}
+
