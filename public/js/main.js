@@ -1,40 +1,58 @@
-var carouselImages = [
-	"media/carousel/0.jpg",
-	"media/carousel/1.jpg",
-	"media/carousel/2.jpg",
-	"media/carousel/3.jpg"
-], x = -1;
-
-function displayNextImage() {
-	x = (x === carouselImages.length - 1) ? 0 : x + 1;
-	document.getElementById("carousel").src = carouselImages[x];
-}
-
-function displayPreviousImage() {
-	x = (x <= 0) ? carouselImages.length - 1 : x - 1;
-	document.getElementById("carousel").src = carouselImages[x];
-}
-
 function startTimer() {
 	setInterval(displayNextImage, 5500);
 }
 
-function startTime() {
-	var today = new Date();
-	var h = today.getHours();
-	var m = today.getMinutes();
-	var s = today.getSeconds();
-	var d = today.getDate();
-	var mo = today.getMonth();
-	m = checkTime(m);
-	s = checkTime(s);
-	document.getElementById("Time").innerHTML =
-		h + ":" + m
-	document.getElementById("Date").innerHTML =
-		d + "-" + mo
-	setTimeout(startTime, 1000);
+//Clock in 12 hours and refreshing ever second
+function ShowTime() {
+	var date = new Date();
+	var h = date.getHours();
+	var m = date.getMinutes();
+	var s = date.getSeconds();
+	var Session = "AM";
+
+	if (h == 0) {
+		h = 12
+	}
+
+	if (h > 12) {
+		h = h - 12;
+		Session = "PM";
+	}
+
+	h = (h < 10) ? "0" + h : h;
+	m = (m < 10) ? "0" + m : m;
+	s = (s < 10) ? "0" + s : s;
+
+	var time = h + ":" + m + "" + Session;
+	document.getElementById("MyClockDisplay").innerHTML = time;
+	document.getElementById("MyClockDisplay").textContent = time;
+
+	setTimeout(ShowTime, 1000);
 }
-function checkTime(i) {
-	if (i < 10) { i = "0" + i };  // add zero in front of numbers < 10
-	return i;
+
+ShowTime();
+
+//side nav side
+function openNav() {
+	document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+	document.getElementById("mySidenav").style.width = "0";
+}
+
+//side nar dropdown
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+	dropdown[i].addEventListener("click", function () {
+		this.classList.toggle("active");
+		var dropdownContent = this.nextElementSibling;
+		if (dropdownContent.style.display === "block") {
+			dropdownContent.style.display = "none";
+		} else {
+			dropdownContent.style.display = "block";
+		}
+	});
 }

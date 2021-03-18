@@ -2,7 +2,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width">
 	<!--site name-->
 	<title>BucksUTC</title>
 	<!--favicon-->
@@ -12,109 +12,204 @@
 	<link rel="stylesheet" href="/css/bootstrap.css">
 	<link rel="stylesheet" href="/css/style.css">
 </head>
-<!--this is for the java pictures-->
 
-<body onload="startTime()">
+<body>
 
 	<!--Top Bar-->
-
 	<div class="fixed-top">
 		<div class="header">
-			<div id="content-desktop">
-				<img src="/media/bucks utc text.png" width="350px" height="auto"  style= margin-top: 0px; margin-right: auto; padding-bottom: 25px;  />
-				<div id="Time" class="white" style= float:right;></div>
+			<div class="content-desktop">
+
+				<div id="MyClockDisplay" class="clock" style="float:right"></div>
+				<img src="/media/UTCLogoDesktop.png" width="350px" height="auto" style="display:float; margin-top: 0px;
+				margin-right: auto; padding-bottom: 25px;" />
+
+				<!--desktop menu-->
+				<div class="desktopmenu">
+					<button class="desktopmenubutton">Year 10 &#11206;</button>
+					<div class="desktopmenudrop">
+					<a href="#">Computing 1</a>
+					<a href="#">Computing 2</a>
+					<a href="#">Construction 1</a>
+					<a href="#">Construction 2</a>
+					</div>
+				</div>
+
+				<div class="desktopmenu">
+					<button class="desktopmenubutton">Year 11 &#11206;</button>
+					<div class="desktopmenudrop">
+					<a href="#">Computing 1</a>
+					<a href="#">Computing 2</a>
+					<a href="#">Construction 1</a>
+					<a href="#">Construction 2</a>
+					</div>
+				</div>
+
+				<div class="desktopmenu">
+					<button class="desktopmenubutton">Year 12 &#11206;</button>
+					<div class="desktopmenudrop">
+					<a href="#">Computing</a>
+						<a href="#">Construction</a>
+					</div>
+				</div>
+
+				<div class="desktopmenu">
+					<button class="desktopmenubutton">Year 13 &#11206;</button>
+					<div class="desktopmenudrop">
+					<a href="#">Computing</a>
+					<a href="#">Construction</a>
+					</div>
+				</div>
+
 			</div>
+			<div class="content-mobile">
+				<img src="/media/UTCLogoMobile.png" width="72px" height="auto" style="display:float; margin-top: 0px;
+				margin-right: auto; padding-bottom: 25px;" />
+
+				<div id="mySidenav" class="sidenav">
+					<span href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</span>
+					<ul>
+						<li>
+							<span>Year 10</span>
+							<ul>
+								<li><a href="#">Computing 1</a></li>
+								<li><a href="#">Computing 2</a></li>
+								<li><a href="#">Construction 1</a></li>
+								<li><a href="#">Construction 2</a></li>
+							</ul>
+						</li>
+						<li>
+							<span>Year 11</span>
+							<ul>
+								<li><a href="#">Computing 1</a></li>
+								<li><a href="#">Computing 2</a></li>
+								<li><a href="#">Construction 1</a></li>
+								<li><a href="#">Construction 2</a></li>
+							</ul>
+						</li>
+						<li>
+							<span>Year 12</span>
+							<ul>
+								<li><a href="#">Computing</a></li>
+								<li><a href="#">Construction</a></li>
+							</ul>
+						</li>
+						<li>
+							<span>Year 13</span>
+							<ul>
+								<li><a href="#">Computing</a></li>
+								<li><a href="#">Construction</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+
+
+				<span class="tappable hamburger" onclick="openNav()">&#9776;</span>
+			</div>
+		</div>
 	</div>
-
 	<!--center box-->
-	<div class="box1">
-		<!--butc name photo-->
-		<img src="/media/GoogleLogo.png" style="display: block;
-        margin-top: 1px; margin-right: auto; margin-left: auto;" />
+	<div class="google">
 		<!--google search-->
-		<form action="http://www.google.com/search" method="get" width="100cm" height="145.50cm" style="display: block;
-        margin-top: -5px; margin-right: 438%; margin-left: 30%;">
+		<img class="logo" src="/media/GoogleLogo.png" height="130px" />
+		<form action="http://www.google.com/search" method="get">
 			<input type="text" name="q" placeholder="Google" />
+			<div class="googleFlex">
+				<input type="submit" value="Search" style="margin-right: 5px;">
+				<button type="button" style="margin-left: 5px;" onclick="alert('Error 404: Your at the UTC\nLuck not found!')">Feeling
+					Lucky</button>
+			</div>
 
-			<input type="submit" value="Search" style="display: block;
-            margin-top: 5px; margin-right:50%; margin-left: 50%;" />
 		</form>
 	</div>
 
-
-	<!--<div class="AppsJoin">-->
-		<!--apps on right of left--> <!--
-		<div class="apps1">
-			<div class="Office365">
-				<a href="https://outlook.office.com/mail"><img src="/media/Outlook.png" width="65px" height="65px"></a>
-			</div>
-			<div class="Office365">
-				<a href="https://www.office.com/launch/onenote"><img src="/media/OneNote.png" width="65px"
-						height="65px"></a>
-			</div>
-			<div class="Office365">
-				<a href="https://www.office.com/launch/word"><img src="/media/Word.png" width="65px" height="65px"></a>
-			</div>
-			<div class="Excel">
-				<a href="https://www.office.com/launch/excel"><img src="/media/Excel.png" width="75px"
-						height="75px"></a>
-			</div>
-			<div class="Office365">
-				<a href="https://www.bbc.co.uk/bitesize"><img src="/media/BBCBitesize.png" width="65px"
-						height="65px"></a>
+	<div class="content-desktop">
+		<div class="NewsFeedDesktop">
+			<div class="articles">
+				<span class="loading">
+					Loading..
+				</span>
+				<!-- Dummy article structure START -->
+				<div class="article" style="display: none;">
+					<h4 class="article-title">This is the title</h4>
+					<div class="article-shortDescription">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe eos ad laboriosam harum in earum totam
+						perspiciatis suscipit illum, doloremque velit.
+					</div>
+					<hr>
+				</div>
+				<!-- Dummy article structure End -->
 			</div>
 		</div>
-	-->
+	</div>
 
-		<!--apps on left of left--> <!--
-		<div class="apps2">
-			<div class="OneDrive">
-				<a href="https://onedrive.live.com/about/en-uk/signin/"><img src="/media/OneDrive.png" width="65px"
-						height="50px"></a>
-			</div>
-			<div class="Office365">
-				<a href="https://teams.microsoft.com/"><img src="/media/Teams.png" width="65px" height="65px"></a>
-			</div>
-			<div class="Office365">
-				<a href="https://www.office.com/launch/powerpoint/"><img src="/media/Powerpoint.png" width="65px"
-						height="65px"></a>
-			</div>
-			<div class="PowerApps">
-				<a href="https://make.powerapps.com/"><img src="/media/PowerApps.png" width="65px" height="55px"></a>
-			</div>
-			<div class="Office365">
-				<a href="https://github.com/"><img src="/media/github.png" width="65px" height="65px"></a>
-			</div>
+	<div class="content-mobile">
+		<div class="NewsFeedMobile">
+			
 		</div>
 
 	</div>
--->
-<!--picture carisal -->
-<div class="picture">
-		<img id="carousel" src="media/carousel/3.jpg" width="400" height="auto" />
-		<button type="button" id="previousButton">Previous</button>
-		<button type="button" id="nextButton">Next</button>
-		<button type="button" id="nextButton"><img src="media/right.png"></button>
+
+	<!--app bar-->
+	<div>
+
+		<div class="Apps">
+			<div class="squares">
+				<a href="https://outlook.office.com/mail"><img src="/media/Outlook.png" width="75px" height="75px"></a>
+				<a href="https://www.office.com/launch/teams"><img src="/media/Teams.png" width="75px"
+						height="75px"></a>
+				<a href="https://www.office.com/launch/onenote"><img src="/media/OneNote.png" width="75px"
+						height="75px"></a>
+				<a href="https://www.office.com/launch/word"><img src="/media/Word.png" width="75px" height="75px"></a>
+				<a href="https://www.office.com/launch/powerpoint"><img src="/media/Powerpoint.png" width="75px"
+						height="75px"></a>
+				<a href="https://www.office.com/launch/excel"><img src="/media/Excel.png" width="75px"
+						height="75px"></a>
+				<a href="https://www.office.com/launch/onedrive"><img src="/media/OneDrive.png" width="75px"
+						height="75px"></a>
+				<a href="https://www.bbc.co.uk/bitesize"><img src="/media/BBCBitesize.png" width="75px"
+						height="75px"></a>
+				<a href="https://github.com/"><img src="/media/github.png" width="75px" height="75px"></a>
+			</div>
+		</div>
+	</div>
+
+	<!--picture carousel desktop-->
+	<div class="carousel-container">
+		<div class="carousel-image" style="background-image: url('Images/1.jpg');"></div>
+		<a id="carousel-previousButton" class="button tappable"><img src="media/left.png"></a>
+		<a id="carousel-nextButton" class="button tappable"><img src="media/right.png"></a>
+	</div>
+
+	<!--footer-->
+	<div class="footer">
+		<div class="footerCr">
+			<p><small>Copyright © 2020 Bucks UTC. All rights reserved.</small></p>
+			<p><small>Bucks UTC is a company limited by guarantee registered in England and Wales with registered number
+					07648803. <br>Registered Office: Buckinghamshire UTC, Oxford Road, Aylesbury, Buckinghamshire, HP21
+					8PB.</small></p>
+		</div>
 	</div>
 
 	<script>
 		$(document).ready(function () {
-			$.getJSON("/api/carousel.json", function (images) {
+			$.getJSON("Images/settings-carousel.json", function (images) {
 				// Images will be the array of images to put in the carousel.
 				var current = 0;
 
 				function displayNextImage() {
 					current = (current === images.length - 1) ? 0 : current + 1;
-					$("#carousel").attr("src", images[current]);
+					$(".carousel-image").css("background-image", "url('" + images[current] + "')");
 				}
 
 				function displayPreviousImage() {
 					current = (current <= 0) ? images.length - 1 : current - 1;
-					$("#carousel").attr("src", images[current]);
+					$(".carousel-image").css("background-image", "url('" + images[current] + "')");
 				}
 
-				$("#previousButton").click(displayPreviousImage);
-				$("#nextButton").click(displayNextImage);
+				$("#carousel-previousButton").click(displayPreviousImage);
+				$("#carousel-nextButton").click(displayNextImage);
 
 				setInterval(displayNextImage, 5500);
 
@@ -122,8 +217,48 @@
 		});
 	</script>
 
+<script>
+
+	$(document).ready(function () {
+
+		var access_token = "oHy3cU2_3o4kuHEZX8HE4b3pvUFwxU8-YXn1qPKGYpA";
+		var space = "28pe32ti9xv4";
+		var content_type = "news";
+
+		var url = "https://cdn.contentful.com/spaces/" + space + "/environments/master/entries?access_token=" + access_token + "&content_type=" + content_type;
+
+		console.log("Making request to contentful on:", url);
+
+		$.ajax(url).done(function (response) {
+
+			var articles = response.items.map(function (article) {
+				return article.fields;
+			});
+
+			var articleContainer = $(".articles");
+			var articleTemplate = articleContainer.find(".article").clone();
+
+			console.log("Retrieved:", articles);
+
+			articles.forEach(function (article) {
+				var newArticle = articleTemplate.clone();
+				newArticle.find(".article-title").html(article.title);
+				newArticle.find(".article-shortDescription").html(article.shortDescription);
+				newArticle.css("display", "block");
+				articleContainer.append(newArticle);
+			});
+
+			articleContainer.find(".loading").remove();
+
+			console.log("rendered articles.");
+
+		});
+
+	});
+
+</script>
+
+	<script src="/js/main.js"></script>
 </body>
-</head>
-<script src="/js/main.js"></script>
 
 </html>
