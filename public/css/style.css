@@ -350,6 +350,23 @@ display: inline;
 	display: block;
 }
 
+#TopBtn{
+    display: none; 
+    position: fixed; 
+    bottom: 20px; 
+    right: 30px; 
+    z-index: 99; 
+    border: none; 
+    outline: none; 
+    background-color:#555; 
+    color: whitesmoke;
+    cursor: pointer; 
+    border-radius: 50%; 
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+}
+
 .desktopmenudrop a:hover {background-color: #101010;}
 .desktopmenu:hover .desktopmenudrop {display: block;}
 .desktopmenu:hover .desktopmenubutton {background-color: #434143;}
