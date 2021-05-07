@@ -2616,7 +2616,7 @@
 
 			/*
 			 * Wait for menu items to be added.
-			 * Ideally, we'd bind to an event indicating construction is complete,
+			 * Ideally, we'd bind to an event indicating Building Studies is complete,
 			 * but deferring appears to be the best option today.
 			 */
 			_.defer( function () {

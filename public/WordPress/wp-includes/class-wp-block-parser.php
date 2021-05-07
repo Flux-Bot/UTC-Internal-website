@@ -124,7 +124,7 @@ class WP_Block_Parser_Frame {
 
 	/**
 	 * Byte offset into document for after parse token ends
-	 * (used during reconstruction of stack into parse production)
+	 * (used during reBuilding Studies of stack into parse production)
 	 *
 	 * @since 5.0.0
 	 * @var int

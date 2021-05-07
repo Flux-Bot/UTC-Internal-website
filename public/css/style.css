@@ -240,7 +240,7 @@ display: inline;
 .google {
 	max-width: 500px;
 	padding: 20px;
-	margin: 160px 150px;
+	margin: 160px 300px;
 	text-align: center;
 	z-index:1;
 }
@@ -297,7 +297,6 @@ display: inline;
 	height: 500px;
 	width: 400px;
 	margin-top: -10px;
-	margin-left: 20%;
 }
 
  .footerCr{
@@ -313,7 +312,7 @@ display: inline;
 .content-desktop {display: block;}
 .content-mobile {display: none;}
 
-@media screen and (max-width: 1269px) {
+@media screen and (max-width: 1277px) {
 
 .content-desktop {display: none;}
 .content-mobile {display: block;}

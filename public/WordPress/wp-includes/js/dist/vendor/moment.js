@@ -2538,7 +2538,7 @@
     }
 
     hooks.createFromInputFallback = deprecate(
-        'value provided is not in a recognized RFC2822 or ISO format. moment construction falls back to js Date(), ' +
+        'value provided is not in a recognized RFC2822 or ISO format. moment Building Studies falls back to js Date(), ' +
             'which is not reliable across all browsers and versions. Non RFC2822/ISO date formats are ' +
             'discouraged and will be removed in an upcoming major release. Please refer to ' +
             'http://momentjs.com/guides/#/warnings/js-date/ for more info.',
@@ -3010,7 +3010,7 @@
         ) {
             input = undefined;
         }
-        // object construction must be done this way.
+        // object Building Studies must be done this way.
         // https://github.com/moment/moment/issues/1423
         c._isAMomentObject = true;
         c._useUTC = c._isUTC = isUTC;
